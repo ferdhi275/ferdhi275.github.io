@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Web Developer</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Nama Anda</h1>
+            <p>Web Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Selamat Datang di Portofolio Saya</h2>
+            <p>Deskripsi singkat tentang Anda dan tujuan Anda sebagai web developer.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portofolio</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="project1-thumbnail.jpg" alt="Project 1">
+                    <h3>Nama Proyek 1</h3>
+                    <p>Deskripsi singkat tentang proyek ini.</p>
+                    <a href="#">Lihat Proyek</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2-thumbnail.jpg" alt="Project 2">
+                    <h3>Nama Proyek 2</h3>
+                    <p>Deskripsi singkat tentang proyek ini.</p>
+                    <a href="#">Lihat Proyek</a>
+                </div>
+                <!-- Tambahkan lebih banyak item portfolio di sini sesuai kebutuhan -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Deskripsi tentang latar belakang Anda, pengalaman, dan keahlian dalam pengembangan web.</p>
+            <h3>Keterampilan Teknis</h3>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <!-- Tambahkan keterampilan teknis lainnya -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Kontak</h2>
+            <form action="submit.php" method="POST">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+            <p>Atau hubungi saya di: email@example.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portofolio Web Developer. Hak cipta dilindungi undang-undang.</p>
+            <ul class="social-links">
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+                <!-- Tambahkan tautan media sosial Anda -->
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
